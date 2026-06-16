@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include CONTRIBUTING.md
+include CODE_OF_CONDUCT.md
+include pyproject.toml
+recursive-include cra_kit *.py
+recursive-include sbom *.py

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cra-compliance-kit"
+version = "1.0.4"
+description = "CRA Compliance Kit for IoT Devices - EU Cyber Resilience Act compliance in one pip install"
+readme = "README.md"
+license = "MIT"
+authors = [{name = "StarTeQ Ltd", email = "sydney@starcaller.uk"}]
+keywords = ["cra", "cyber-resilience-act", "iot-security", "device-identity",
+    "firmware-security", "cve", "sbom", "cyclonedx", "compliance",
+    "psti", "eu-regulation", "access-control", "input-sanitisation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Security",
+    "Topic :: Software Development :: Embedded Systems",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Typing :: Typed",
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.urls]
+Homepage = "https://starcaller.uk/cra-compliance"
+Documentation = "https://starcaller.uk/cra-compliance/docs"
+"Source Code" = "https://github.com/starcaller/cra-compliance-kit"
+
+[tool.setuptools]
+packages = ["cra_kit", "sbom"]

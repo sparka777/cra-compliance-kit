@@ -1,0 +1,1882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.5" version="1" serialNumber="urn:uuid:0425d33d-404f-4580-9c70-dec2c298dd53">
+  <metadata>
+    <timestamp>2026-06-09T12:49:44Z</timestamp>
+    <tools><tool><vendor>StarTeQ Ltd</vendor><name>cra-compliance-kit</name><version>1.0.0</version></tool></tools>
+    <properties>
+      <property name="manufacturer">StarTeQ Ltd</property>
+      <property name="product">IoT Firmware</property>
+      <property name="productVersion">1.0.0</property>
+    </properties>
+  </metadata>
+  <components>
+    <component type="application">
+      <name>IoT-Firmware</name>
+      <version>1.0.0</version>
+      <purl>pkg:pypi/iot-firmware@1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>addict</name>
+      <version>2.4.0</version>
+      <purl>pkg:pypi/addict@2.4.0</purl>
+    </component>
+    <component type="library">
+      <name>aiocoap</name>
+      <version>0.4.17</version>
+      <purl>pkg:pypi/aiocoap@0.4.17</purl>
+    </component>
+    <component type="library">
+      <name>aiofiles</name>
+      <version>25.1.0</version>
+      <purl>pkg:pypi/aiofiles@25.1.0</purl>
+    </component>
+    <component type="library">
+      <name>aiohappyeyeballs</name>
+      <version>2.6.1</version>
+      <purl>pkg:pypi/aiohappyeyeballs@2.6.1</purl>
+    </component>
+    <component type="library">
+      <name>aiohomekit</name>
+      <version>3.2.20</version>
+      <purl>pkg:pypi/aiohomekit@3.2.20</purl>
+    </component>
+    <component type="library">
+      <name>aiohttp</name>
+      <version>3.13.3</version>
+      <purl>pkg:pypi/aiohttp@3.13.3</purl>
+    </component>
+    <component type="library">
+      <name>aiosignal</name>
+      <version>1.4.0</version>
+      <purl>pkg:pypi/aiosignal@1.4.0</purl>
+    </component>
+    <component type="library">
+      <name>aiosqlite</name>
+      <version>0.21.0</version>
+      <purl>pkg:pypi/aiosqlite@0.21.0</purl>
+    </component>
+    <component type="library">
+      <name>alphashape</name>
+      <version>1.3.1</version>
+      <purl>pkg:pypi/alphashape@1.3.1</purl>
+    </component>
+    <component type="library">
+      <name>annotated-doc</name>
+      <version>0.0.4</version>
+      <purl>pkg:pypi/annotated-doc@0.0.4</purl>
+    </component>
+    <component type="library">
+      <name>annotated-types</name>
+      <version>0.7.0</version>
+      <purl>pkg:pypi/annotated-types@0.7.0</purl>
+    </component>
+    <component type="library">
+      <name>anyio</name>
+      <version>4.12.1</version>
+      <purl>pkg:pypi/anyio@4.12.1</purl>
+    </component>
+    <component type="library">
+      <name>anytree</name>
+      <version>2.13.0</version>
+      <purl>pkg:pypi/anytree@2.13.0</purl>
+    </component>
+    <component type="library">
+      <name>appdirs</name>
+      <version>1.4.4</version>
+      <purl>pkg:pypi/appdirs@1.4.4</purl>
+    </component>
+    <component type="library">
+      <name>ascii_colors</name>
+      <version>0.11.21</version>
+      <purl>pkg:pypi/ascii_colors@0.11.21</purl>
+    </component>
+    <component type="library">
+      <name>async_interrupt</name>
+      <version>1.2.2</version>
+      <purl>pkg:pypi/async_interrupt@1.2.2</purl>
+    </component>
+    <component type="library">
+      <name>asyncpg</name>
+      <version>0.31.0</version>
+      <purl>pkg:pypi/asyncpg@0.31.0</purl>
+    </component>
+    <component type="library">
+      <name>attrs</name>
+      <version>25.4.0</version>
+      <purl>pkg:pypi/attrs@25.4.0</purl>
+    </component>
+    <component type="library">
+      <name>autograd</name>
+      <version>1.8.0</version>
+      <purl>pkg:pypi/autograd@1.8.0</purl>
+    </component>
+    <component type="library">
+      <name>av</name>
+      <version>17.0.1</version>
+      <purl>pkg:pypi/av@17.0.1</purl>
+    </component>
+    <component type="library">
+      <name>babel</name>
+      <version>2.18.0</version>
+      <purl>pkg:pypi/babel@2.18.0</purl>
+    </component>
+    <component type="library">
+      <name>backoff</name>
+      <version>2.2.1</version>
+      <purl>pkg:pypi/backoff@2.2.1</purl>
+    </component>
+    <component type="library">
+      <name>bcrypt</name>
+      <version>5.0.0</version>
+      <purl>pkg:pypi/bcrypt@5.0.0</purl>
+    </component>
+    <component type="library">
+      <name>beartype</name>
+      <version>0.18.5</version>
+      <purl>pkg:pypi/beartype@0.18.5</purl>
+    </component>
+    <component type="library">
+      <name>beautifulsoup4</name>
+      <version>4.13.5</version>
+      <purl>pkg:pypi/beautifulsoup4@4.13.5</purl>
+    </component>
+    <component type="library">
+      <name>bleak</name>
+      <version>3.0.2</version>
+      <purl>pkg:pypi/bleak@3.0.2</purl>
+    </component>
+    <component type="library">
+      <name>bleak-retry-connector</name>
+      <version>4.6.1</version>
+      <purl>pkg:pypi/bleak-retry-connector@4.6.1</purl>
+    </component>
+    <component type="library">
+      <name>blinker</name>
+      <version>1.9.0</version>
+      <purl>pkg:pypi/blinker@1.9.0</purl>
+    </component>
+    <component type="library">
+      <name>blis</name>
+      <version>1.3.3</version>
+      <purl>pkg:pypi/blis@1.3.3</purl>
+    </component>
+    <component type="library">
+      <name>boolean.py</name>
+      <version>5.0</version>
+      <purl>pkg:pypi/boolean.py@5.0</purl>
+    </component>
+    <component type="library">
+      <name>brotli</name>
+      <version>1.2.0</version>
+      <purl>pkg:pypi/brotli@1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>brotlicffi</name>
+      <version>1.2.0.1</version>
+      <purl>pkg:pypi/brotlicffi@1.2.0.1</purl>
+    </component>
+    <component type="library">
+      <name>build</name>
+      <version>1.4.0</version>
+      <purl>pkg:pypi/build@1.4.0</purl>
+    </component>
+    <component type="library">
+      <name>catalogue</name>
+      <version>2.0.10</version>
+      <purl>pkg:pypi/catalogue@2.0.10</purl>
+    </component>
+    <component type="library">
+      <name>certifi</name>
+      <version>2026.2.25</version>
+      <purl>pkg:pypi/certifi@2026.2.25</purl>
+    </component>
+    <component type="library">
+      <name>cffi</name>
+      <version>2.0.0</version>
+      <purl>pkg:pypi/cffi@2.0.0</purl>
+    </component>
+    <component type="library">
+      <name>chacha20poly1305</name>
+      <version>0.0.3</version>
+      <purl>pkg:pypi/chacha20poly1305@0.0.3</purl>
+    </component>
+    <component type="library">
+      <name>chacha20poly1305-reuseable</name>
+      <version>0.13.2</version>
+      <purl>pkg:pypi/chacha20poly1305-reuseable@0.13.2</purl>
+    </component>
+    <component type="library">
+      <name>chardet</name>
+      <version>6.0.0.post1</version>
+      <purl>pkg:pypi/chardet@6.0.0.post1</purl>
+    </component>
+    <component type="library">
+      <name>charset-normalizer</name>
+      <version>3.4.4</version>
+      <purl>pkg:pypi/charset-normalizer@3.4.4</purl>
+    </component>
+    <component type="library">
+      <name>chromadb</name>
+      <version>1.1.1</version>
+      <purl>pkg:pypi/chromadb@1.1.1</purl>
+    </component>
+    <component type="library">
+      <name>click</name>
+      <version>8.3.1</version>
+      <purl>pkg:pypi/click@8.3.1</purl>
+    </component>
+    <component type="library">
+      <name>click-log</name>
+      <version>0.4.0</version>
+      <purl>pkg:pypi/click-log@0.4.0</purl>
+    </component>
+    <component type="library">
+      <name>cloudpathlib</name>
+      <version>0.23.0</version>
+      <purl>pkg:pypi/cloudpathlib@0.23.0</purl>
+    </component>
+    <component type="library">
+      <name>colorama</name>
+      <version>0.4.6</version>
+      <purl>pkg:pypi/colorama@0.4.6</purl>
+    </component>
+    <component type="library">
+      <name>coloredlogs</name>
+      <version>15.0.1</version>
+      <purl>pkg:pypi/coloredlogs@15.0.1</purl>
+    </component>
+    <component type="library">
+      <name>commentjson</name>
+      <version>0.9.0</version>
+      <purl>pkg:pypi/commentjson@0.9.0</purl>
+    </component>
+    <component type="library">
+      <name>confection</name>
+      <version>0.1.5</version>
+      <purl>pkg:pypi/confection@0.1.5</purl>
+    </component>
+    <component type="library">
+      <name>configparser</name>
+      <version>7.2.0</version>
+      <purl>pkg:pypi/configparser@7.2.0</purl>
+    </component>
+    <component type="library">
+      <name>contourpy</name>
+      <version>1.3.3</version>
+      <purl>pkg:pypi/contourpy@1.3.3</purl>
+    </component>
+    <component type="library">
+      <name>Crawl4AI</name>
+      <version>0.8.0</version>
+      <purl>pkg:pypi/Crawl4AI@0.8.0</purl>
+    </component>
+    <component type="library">
+      <name>crewai</name>
+      <version>1.11.0</version>
+      <purl>pkg:pypi/crewai@1.11.0</purl>
+    </component>
+    <component type="library">
+      <name>crewai-tools</name>
+      <version>1.11.0</version>
+      <purl>pkg:pypi/crewai-tools@1.11.0</purl>
+    </component>
+    <component type="library">
+      <name>cryptography</name>
+      <version>46.0.5</version>
+      <purl>pkg:pypi/cryptography@46.0.5</purl>
+    </component>
+    <component type="library">
+      <name>cssselect</name>
+      <version>1.4.0</version>
+      <purl>pkg:pypi/cssselect@1.4.0</purl>
+    </component>
+    <component type="library">
+      <name>csvw</name>
+      <version>3.7.0</version>
+      <purl>pkg:pypi/csvw@3.7.0</purl>
+    </component>
+    <component type="library">
+      <name>ctranslate2</name>
+      <version>4.7.2</version>
+      <purl>pkg:pypi/ctranslate2@4.7.2</purl>
+    </component>
+    <component type="library">
+      <name>curated-tokenizers</name>
+      <version>0.0.9</version>
+      <purl>pkg:pypi/curated-tokenizers@0.0.9</purl>
+    </component>
+    <component type="library">
+      <name>curated-transformers</name>
+      <version>0.1.1</version>
+      <purl>pkg:pypi/curated-transformers@0.1.1</purl>
+    </component>
+    <component type="library">
+      <name>cycler</name>
+      <version>0.12.1</version>
+      <purl>pkg:pypi/cycler@0.12.1</purl>
+    </component>
+    <component type="library">
+      <name>cyclonedx-python-lib</name>
+      <version>11.9.0</version>
+      <purl>pkg:pypi/cyclonedx-python-lib@11.9.0</purl>
+    </component>
+    <component type="library">
+      <name>cymem</name>
+      <version>2.0.13</version>
+      <purl>pkg:pypi/cymem@2.0.13</purl>
+    </component>
+    <component type="library">
+      <name>davey</name>
+      <version>0.1.5</version>
+      <purl>pkg:pypi/davey@0.1.5</purl>
+    </component>
+    <component type="library">
+      <name>ddgs</name>
+      <version>9.11.4</version>
+      <purl>pkg:pypi/ddgs@9.11.4</purl>
+    </component>
+    <component type="library">
+      <name>defusedxml</name>
+      <version>0.7.1</version>
+      <purl>pkg:pypi/defusedxml@0.7.1</purl>
+    </component>
+    <component type="library">
+      <name>deprecation</name>
+      <version>2.1.0</version>
+      <purl>pkg:pypi/deprecation@2.1.0</purl>
+    </component>
+    <component type="library">
+      <name>discord.py</name>
+      <version>2.7.1</version>
+      <purl>pkg:pypi/discord.py@2.7.1</purl>
+    </component>
+    <component type="library">
+      <name>diskcache</name>
+      <version>5.6.3</version>
+      <purl>pkg:pypi/diskcache@5.6.3</purl>
+    </component>
+    <component type="library">
+      <name>distro</name>
+      <version>1.9.0</version>
+      <purl>pkg:pypi/distro@1.9.0</purl>
+    </component>
+    <component type="library">
+      <name>dlinfo</name>
+      <version>2.0.0</version>
+      <purl>pkg:pypi/dlinfo@2.0.0</purl>
+    </component>
+    <component type="library">
+      <name>docker</name>
+      <version>7.1.0</version>
+      <purl>pkg:pypi/docker@7.1.0</purl>
+    </component>
+    <component type="library">
+      <name>docopt</name>
+      <version>0.6.2</version>
+      <purl>pkg:pypi/docopt@0.6.2</purl>
+    </component>
+    <component type="library">
+      <name>docstring_parser</name>
+      <version>0.17.0</version>
+      <purl>pkg:pypi/docstring_parser@0.17.0</purl>
+    </component>
+    <component type="library">
+      <name>duckduckgo_search</name>
+      <version>8.1.1</version>
+      <purl>pkg:pypi/duckduckgo_search@8.1.1</purl>
+    </component>
+    <component type="library">
+      <name>durationpy</name>
+      <version>0.10</version>
+      <purl>pkg:pypi/durationpy@0.10</purl>
+    </component>
+    <component type="library">
+      <name>edge-tts</name>
+      <version>7.2.7</version>
+      <purl>pkg:pypi/edge-tts@7.2.7</purl>
+    </component>
+    <component type="library">
+      <name>elevenlabs</name>
+      <version>2.40.0</version>
+      <purl>pkg:pypi/elevenlabs@2.40.0</purl>
+    </component>
+    <component type="library">
+      <name>espeakng-loader</name>
+      <version>0.2.4</version>
+      <purl>pkg:pypi/espeakng-loader@0.2.4</purl>
+    </component>
+    <component type="library">
+      <name>et_xmlfile</name>
+      <version>2.0.0</version>
+      <purl>pkg:pypi/et_xmlfile@2.0.0</purl>
+    </component>
+    <component type="library">
+      <name>fake-http-header</name>
+      <version>0.3.5</version>
+      <purl>pkg:pypi/fake-http-header@0.3.5</purl>
+    </component>
+    <component type="library">
+      <name>fake-useragent</name>
+      <version>2.2.0</version>
+      <purl>pkg:pypi/fake-useragent@2.2.0</purl>
+    </component>
+    <component type="library">
+      <name>fastapi</name>
+      <version>0.135.1</version>
+      <purl>pkg:pypi/fastapi@0.135.1</purl>
+    </component>
+    <component type="library">
+      <name>faster-whisper</name>
+      <version>1.2.1</version>
+      <purl>pkg:pypi/faster-whisper@1.2.1</purl>
+    </component>
+    <component type="library">
+      <name>fastuuid</name>
+      <version>0.14.0</version>
+      <purl>pkg:pypi/fastuuid@0.14.0</purl>
+    </component>
+    <component type="library">
+      <name>filelock</name>
+      <version>3.25.0</version>
+      <purl>pkg:pypi/filelock@3.25.0</purl>
+    </component>
+    <component type="library">
+      <name>Flask</name>
+      <version>3.1.3</version>
+      <purl>pkg:pypi/Flask@3.1.3</purl>
+    </component>
+    <component type="library">
+      <name>flatbuffers</name>
+      <version>25.12.19</version>
+      <purl>pkg:pypi/flatbuffers@25.12.19</purl>
+    </component>
+    <component type="library">
+      <name>fonttools</name>
+      <version>4.62.1</version>
+      <purl>pkg:pypi/fonttools@4.62.1</purl>
+    </component>
+    <component type="library">
+      <name>freeflow-llm</name>
+      <version>0.1.3</version>
+      <purl>pkg:pypi/freeflow-llm@0.1.3</purl>
+    </component>
+    <component type="library">
+      <name>frozenlist</name>
+      <version>1.8.0</version>
+      <purl>pkg:pypi/frozenlist@1.8.0</purl>
+    </component>
+    <component type="library">
+      <name>fsspec</name>
+      <version>2026.2.0</version>
+      <purl>pkg:pypi/fsspec@2026.2.0</purl>
+    </component>
+    <component type="library">
+      <name>future</name>
+      <version>1.0.0</version>
+      <purl>pkg:pypi/future@1.0.0</purl>
+    </component>
+    <component type="library">
+      <name>gensim</name>
+      <version>4.4.0</version>
+      <purl>pkg:pypi/gensim@4.4.0</purl>
+    </component>
+    <component type="library">
+      <name>google-api-core</name>
+      <version>2.30.0</version>
+      <purl>pkg:pypi/google-api-core@2.30.0</purl>
+    </component>
+    <component type="library">
+      <name>google-api-python-client</name>
+      <version>2.194.0</version>
+      <purl>pkg:pypi/google-api-python-client@2.194.0</purl>
+    </component>
+    <component type="library">
+      <name>google-auth</name>
+      <version>2.49.1</version>
+      <purl>pkg:pypi/google-auth@2.49.1</purl>
+    </component>
+    <component type="library">
+      <name>google-auth-httplib2</name>
+      <version>0.3.1</version>
+      <purl>pkg:pypi/google-auth-httplib2@0.3.1</purl>
+    </component>
+    <component type="library">
+      <name>google-genai</name>
+      <version>1.68.0</version>
+      <purl>pkg:pypi/google-genai@1.68.0</purl>
+    </component>
+    <component type="library">
+      <name>googleapis-common-protos</name>
+      <version>1.73.0</version>
+      <purl>pkg:pypi/googleapis-common-protos@1.73.0</purl>
+    </component>
+    <component type="library">
+      <name>graphifyy</name>
+      <version>0.4.23</version>
+      <purl>pkg:pypi/graphifyy@0.4.23</purl>
+    </component>
+    <component type="library">
+      <name>graspologic</name>
+      <version>3.4.4</version>
+      <purl>pkg:pypi/graspologic@3.4.4</purl>
+    </component>
+    <component type="library">
+      <name>graspologic-native</name>
+      <version>1.2.5</version>
+      <purl>pkg:pypi/graspologic-native@1.2.5</purl>
+    </component>
+    <component type="library">
+      <name>greenlet</name>
+      <version>3.3.2</version>
+      <purl>pkg:pypi/greenlet@3.3.2</purl>
+    </component>
+    <component type="library">
+      <name>grpcio</name>
+      <version>1.80.0</version>
+      <purl>pkg:pypi/grpcio@1.80.0</purl>
+    </component>
+    <component type="library">
+      <name>grpcio-tools</name>
+      <version>1.80.0</version>
+      <purl>pkg:pypi/grpcio-tools@1.80.0</purl>
+    </component>
+    <component type="library">
+      <name>h11</name>
+      <version>0.16.0</version>
+      <purl>pkg:pypi/h11@0.16.0</purl>
+    </component>
+    <component type="library">
+      <name>h2</name>
+      <version>4.3.0</version>
+      <purl>pkg:pypi/h2@4.3.0</purl>
+    </component>
+    <component type="library">
+      <name>hf-xet</name>
+      <version>1.3.2</version>
+      <purl>pkg:pypi/hf-xet@1.3.2</purl>
+    </component>
+    <component type="library">
+      <name>hpack</name>
+      <version>4.1.0</version>
+      <purl>pkg:pypi/hpack@4.1.0</purl>
+    </component>
+    <component type="library">
+      <name>httpcore</name>
+      <version>1.0.9</version>
+      <purl>pkg:pypi/httpcore@1.0.9</purl>
+    </component>
+    <component type="library">
+      <name>httplib2</name>
+      <version>0.31.2</version>
+      <purl>pkg:pypi/httplib2@0.31.2</purl>
+    </component>
+    <component type="library">
+      <name>httptools</name>
+      <version>0.7.1</version>
+      <purl>pkg:pypi/httptools@0.7.1</purl>
+    </component>
+    <component type="library">
+      <name>httpx</name>
+      <version>0.28.1</version>
+      <purl>pkg:pypi/httpx@0.28.1</purl>
+    </component>
+    <component type="library">
+      <name>httpx-sse</name>
+      <version>0.4.3</version>
+      <purl>pkg:pypi/httpx-sse@0.4.3</purl>
+    </component>
+    <component type="library">
+      <name>huggingface_hub</name>
+      <version>1.5.0</version>
+      <purl>pkg:pypi/huggingface_hub@1.5.0</purl>
+    </component>
+    <component type="library">
+      <name>humanfriendly</name>
+      <version>10.0</version>
+      <purl>pkg:pypi/humanfriendly@10.0</purl>
+    </component>
+    <component type="library">
+      <name>humanize</name>
+      <version>4.15.0</version>
+      <purl>pkg:pypi/humanize@4.15.0</purl>
+    </component>
+    <component type="library">
+      <name>hyperframe</name>
+      <version>6.1.0</version>
+      <purl>pkg:pypi/hyperframe@6.1.0</purl>
+    </component>
+    <component type="library">
+      <name>hyppo</name>
+      <version>0.5.2</version>
+      <purl>pkg:pypi/hyppo@0.5.2</purl>
+    </component>
+    <component type="library">
+      <name>idna</name>
+      <version>3.11</version>
+      <purl>pkg:pypi/idna@3.11</purl>
+    </component>
+    <component type="library">
+      <name>ifaddr</name>
+      <version>0.2.0</version>
+      <purl>pkg:pypi/ifaddr@0.2.0</purl>
+    </component>
+    <component type="library">
+      <name>importlib_metadata</name>
+      <version>8.7.1</version>
+      <purl>pkg:pypi/importlib_metadata@8.7.1</purl>
+    </component>
+    <component type="library">
+      <name>importlib_resources</name>
+      <version>6.5.2</version>
+      <purl>pkg:pypi/importlib_resources@6.5.2</purl>
+    </component>
+    <component type="library">
+      <name>iniconfig</name>
+      <version>2.3.0</version>
+      <purl>pkg:pypi/iniconfig@2.3.0</purl>
+    </component>
+    <component type="library">
+      <name>instructor</name>
+      <version>1.14.5</version>
+      <purl>pkg:pypi/instructor@1.14.5</purl>
+    </component>
+    <component type="library">
+      <name>invoke</name>
+      <version>3.0.3</version>
+      <purl>pkg:pypi/invoke@3.0.3</purl>
+    </component>
+    <component type="library">
+      <name>isodate</name>
+      <version>0.7.2</version>
+      <purl>pkg:pypi/isodate@0.7.2</purl>
+    </component>
+    <component type="library">
+      <name>itsdangerous</name>
+      <version>2.2.0</version>
+      <purl>pkg:pypi/itsdangerous@2.2.0</purl>
+    </component>
+    <component type="library">
+      <name>Jinja2</name>
+      <version>3.1.6</version>
+      <purl>pkg:pypi/Jinja2@3.1.6</purl>
+    </component>
+    <component type="library">
+      <name>jiter</name>
+      <version>0.11.1</version>
+      <purl>pkg:pypi/jiter@0.11.1</purl>
+    </component>
+    <component type="library">
+      <name>joblib</name>
+      <version>1.5.3</version>
+      <purl>pkg:pypi/joblib@1.5.3</purl>
+    </component>
+    <component type="library">
+      <name>json5</name>
+      <version>0.10.0</version>
+      <purl>pkg:pypi/json5@0.10.0</purl>
+    </component>
+    <component type="library">
+      <name>json_repair</name>
+      <version>0.25.3</version>
+      <purl>pkg:pypi/json_repair@0.25.3</purl>
+    </component>
+    <component type="library">
+      <name>jsonref</name>
+      <version>1.1.0</version>
+      <purl>pkg:pypi/jsonref@1.1.0</purl>
+    </component>
+    <component type="library">
+      <name>jsonschema</name>
+      <version>4.26.0</version>
+      <purl>pkg:pypi/jsonschema@4.26.0</purl>
+    </component>
+    <component type="library">
+      <name>jsonschema-specifications</name>
+      <version>2025.9.1</version>
+      <purl>pkg:pypi/jsonschema-specifications@2025.9.1</purl>
+    </component>
+    <component type="library">
+      <name>kiwisolver</name>
+      <version>1.5.0</version>
+      <purl>pkg:pypi/kiwisolver@1.5.0</purl>
+    </component>
+    <component type="library">
+      <name>kokoro</name>
+      <version>0.9.4</version>
+      <purl>pkg:pypi/kokoro@0.9.4</purl>
+    </component>
+    <component type="library">
+      <name>kubernetes</name>
+      <version>35.0.0</version>
+      <purl>pkg:pypi/kubernetes@35.0.0</purl>
+    </component>
+    <component type="library">
+      <name>lance-namespace</name>
+      <version>0.6.1</version>
+      <purl>pkg:pypi/lance-namespace@0.6.1</purl>
+    </component>
+    <component type="library">
+      <name>lance-namespace-urllib3-client</name>
+      <version>0.6.1</version>
+      <purl>pkg:pypi/lance-namespace-urllib3-client@0.6.1</purl>
+    </component>
+    <component type="library">
+      <name>lancedb</name>
+      <version>0.30.0</version>
+      <purl>pkg:pypi/lancedb@0.30.0</purl>
+    </component>
+    <component type="library">
+      <name>langfuse</name>
+      <version>4.0.1</version>
+      <purl>pkg:pypi/langfuse@4.0.1</purl>
+    </component>
+    <component type="library">
+      <name>language-tags</name>
+      <version>1.2.0</version>
+      <purl>pkg:pypi/language-tags@1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>lark</name>
+      <version>1.3.1</version>
+      <purl>pkg:pypi/lark@1.3.1</purl>
+    </component>
+    <component type="library">
+      <name>lark-parser</name>
+      <version>0.7.8</version>
+      <purl>pkg:pypi/lark-parser@0.7.8</purl>
+    </component>
+    <component type="library">
+      <name>librt</name>
+      <version>0.8.1</version>
+      <purl>pkg:pypi/librt@0.8.1</purl>
+    </component>
+    <component type="library">
+      <name>license-expression</name>
+      <version>30.4.4</version>
+      <purl>pkg:pypi/license-expression@30.4.4</purl>
+    </component>
+    <component type="library">
+      <name>lightrag-hku</name>
+      <version>1.4.12</version>
+      <purl>pkg:pypi/lightrag-hku@1.4.12</purl>
+    </component>
+    <component type="library">
+      <name>linkify-it-py</name>
+      <version>2.1.0</version>
+      <purl>pkg:pypi/linkify-it-py@2.1.0</purl>
+    </component>
+    <component type="library">
+      <name>litellm</name>
+      <version>1.82.0</version>
+      <purl>pkg:pypi/litellm@1.82.0</purl>
+    </component>
+    <component type="library">
+      <name>llvmlite</name>
+      <version>0.46.0</version>
+      <purl>pkg:pypi/llvmlite@0.46.0</purl>
+    </component>
+    <component type="library">
+      <name>loguru</name>
+      <version>0.7.3</version>
+      <purl>pkg:pypi/loguru@0.7.3</purl>
+    </component>
+    <component type="library">
+      <name>lxml</name>
+      <version>5.4.0</version>
+      <purl>pkg:pypi/lxml@5.4.0</purl>
+    </component>
+    <component type="library">
+      <name>magika</name>
+      <version>0.6.3</version>
+      <purl>pkg:pypi/magika@0.6.3</purl>
+    </component>
+    <component type="library">
+      <name>markdown-it-py</name>
+      <version>4.0.0</version>
+      <purl>pkg:pypi/markdown-it-py@4.0.0</purl>
+    </component>
+    <component type="library">
+      <name>markdownify</name>
+      <version>1.2.2</version>
+      <purl>pkg:pypi/markdownify@1.2.2</purl>
+    </component>
+    <component type="library">
+      <name>markitdown</name>
+      <version>0.1.6</version>
+      <purl>pkg:pypi/markitdown@0.1.6</purl>
+    </component>
+    <component type="library">
+      <name>MarkupSafe</name>
+      <version>3.0.3</version>
+      <purl>pkg:pypi/MarkupSafe@3.0.3</purl>
+    </component>
+    <component type="library">
+      <name>matplotlib</name>
+      <version>3.10.8</version>
+      <purl>pkg:pypi/matplotlib@3.10.8</purl>
+    </component>
+    <component type="library">
+      <name>mcp</name>
+      <version>1.26.0</version>
+      <purl>pkg:pypi/mcp@1.26.0</purl>
+    </component>
+    <component type="library">
+      <name>mdit-py-plugins</name>
+      <version>0.5.0</version>
+      <purl>pkg:pypi/mdit-py-plugins@0.5.0</purl>
+    </component>
+    <component type="library">
+      <name>mdurl</name>
+      <version>0.1.2</version>
+      <purl>pkg:pypi/mdurl@0.1.2</purl>
+    </component>
+    <component type="library">
+      <name>misaki</name>
+      <version>0.9.4</version>
+      <purl>pkg:pypi/misaki@0.9.4</purl>
+    </component>
+    <component type="library">
+      <name>mmh3</name>
+      <version>5.2.1</version>
+      <purl>pkg:pypi/mmh3@5.2.1</purl>
+    </component>
+    <component type="library">
+      <name>mpmath</name>
+      <version>1.3.0</version>
+      <purl>pkg:pypi/mpmath@1.3.0</purl>
+    </component>
+    <component type="library">
+      <name>multidict</name>
+      <version>6.7.1</version>
+      <purl>pkg:pypi/multidict@6.7.1</purl>
+    </component>
+    <component type="library">
+      <name>murmurhash</name>
+      <version>1.0.15</version>
+      <purl>pkg:pypi/murmurhash@1.0.15</purl>
+    </component>
+    <component type="library">
+      <name>mypy</name>
+      <version>1.19.1</version>
+      <purl>pkg:pypi/mypy@1.19.1</purl>
+    </component>
+    <component type="library">
+      <name>mypy_extensions</name>
+      <version>1.1.0</version>
+      <purl>pkg:pypi/mypy_extensions@1.1.0</purl>
+    </component>
+    <component type="library">
+      <name>nano-vectordb</name>
+      <version>0.0.4.3</version>
+      <purl>pkg:pypi/nano-vectordb@0.0.4.3</purl>
+    </component>
+    <component type="library">
+      <name>neo4j</name>
+      <version>6.1.0</version>
+      <purl>pkg:pypi/neo4j@6.1.0</purl>
+    </component>
+    <component type="library">
+      <name>networkx</name>
+      <version>3.6.1</version>
+      <purl>pkg:pypi/networkx@3.6.1</purl>
+    </component>
+    <component type="library">
+      <name>newsapi-python</name>
+      <version>0.2.7</version>
+      <purl>pkg:pypi/newsapi-python@0.2.7</purl>
+    </component>
+    <component type="library">
+      <name>nltk</name>
+      <version>3.9.3</version>
+      <purl>pkg:pypi/nltk@3.9.3</purl>
+    </component>
+    <component type="library">
+      <name>num2words</name>
+      <version>0.5.14</version>
+      <purl>pkg:pypi/num2words@0.5.14</purl>
+    </component>
+    <component type="library">
+      <name>numba</name>
+      <version>0.64.0</version>
+      <purl>pkg:pypi/numba@0.64.0</purl>
+    </component>
+    <component type="library">
+      <name>numpy</name>
+      <version>1.26.4</version>
+      <purl>pkg:pypi/numpy@1.26.4</purl>
+    </component>
+    <component type="library">
+      <name>oauthlib</name>
+      <version>3.3.1</version>
+      <purl>pkg:pypi/oauthlib@3.3.1</purl>
+    </component>
+    <component type="library">
+      <name>onnxruntime</name>
+      <version>1.20.1</version>
+      <purl>pkg:pypi/onnxruntime@1.20.1</purl>
+    </component>
+    <component type="library">
+      <name>openai</name>
+      <version>2.24.0</version>
+      <purl>pkg:pypi/openai@2.24.0</purl>
+    </component>
+    <component type="library">
+      <name>openpyxl</name>
+      <version>3.1.5</version>
+      <purl>pkg:pypi/openpyxl@3.1.5</purl>
+    </component>
+    <component type="library">
+      <name>opentelemetry-api</name>
+      <version>1.34.1</version>
+      <purl>pkg:pypi/opentelemetry-api@1.34.1</purl>
+    </component>
+    <component type="library">
+      <name>opentelemetry-exporter-otlp-proto-common</name>
+      <version>1.34.1</version>
+      <purl>pkg:pypi/opentelemetry-exporter-otlp-proto-common@1.34.1</purl>
+    </component>
+    <component type="library">
+      <name>opentelemetry-exporter-otlp-proto-grpc</name>
+      <version>1.34.1</version>
+      <purl>pkg:pypi/opentelemetry-exporter-otlp-proto-grpc@1.34.1</purl>
+    </component>
+    <component type="library">
+      <name>opentelemetry-exporter-otlp-proto-http</name>
+      <version>1.34.1</version>
+      <purl>pkg:pypi/opentelemetry-exporter-otlp-proto-http@1.34.1</purl>
+    </component>
+    <component type="library">
+      <name>opentelemetry-proto</name>
+      <version>1.34.1</version>
+      <purl>pkg:pypi/opentelemetry-proto@1.34.1</purl>
+    </component>
+    <component type="library">
+      <name>opentelemetry-sdk</name>
+      <version>1.34.1</version>
+      <purl>pkg:pypi/opentelemetry-sdk@1.34.1</purl>
+    </component>
+    <component type="library">
+      <name>opentelemetry-semantic-conventions</name>
+      <version>0.55b1</version>
+      <purl>pkg:pypi/opentelemetry-semantic-conventions@0.55b1</purl>
+    </component>
+    <component type="library">
+      <name>openwakeword</name>
+      <version>0.6.0</version>
+      <purl>pkg:pypi/openwakeword@0.6.0</purl>
+    </component>
+    <component type="library">
+      <name>orjson</name>
+      <version>3.11.7</version>
+      <purl>pkg:pypi/orjson@3.11.7</purl>
+    </component>
+    <component type="library">
+      <name>overrides</name>
+      <version>7.7.0</version>
+      <purl>pkg:pypi/overrides@7.7.0</purl>
+    </component>
+    <component type="library">
+      <name>packageurl-python</name>
+      <version>0.17.6</version>
+      <purl>pkg:pypi/packageurl-python@0.17.6</purl>
+    </component>
+    <component type="library">
+      <name>packaging</name>
+      <version>25.0</version>
+      <purl>pkg:pypi/packaging@25.0</purl>
+    </component>
+    <component type="library">
+      <name>pandas</name>
+      <version>2.3.3</version>
+      <purl>pkg:pypi/pandas@2.3.3</purl>
+    </component>
+    <component type="library">
+      <name>paramiko</name>
+      <version>4.0.0</version>
+      <purl>pkg:pypi/paramiko@4.0.0</purl>
+    </component>
+    <component type="library">
+      <name>patchright</name>
+      <version>1.58.0</version>
+      <purl>pkg:pypi/patchright@1.58.0</purl>
+    </component>
+    <component type="library">
+      <name>pathspec</name>
+      <version>1.0.4</version>
+      <purl>pkg:pypi/pathspec@1.0.4</purl>
+    </component>
+    <component type="library">
+      <name>pathvalidate</name>
+      <version>3.3.1</version>
+      <purl>pkg:pypi/pathvalidate@3.3.1</purl>
+    </component>
+    <component type="library">
+      <name>patsy</name>
+      <version>1.0.2</version>
+      <purl>pkg:pypi/patsy@1.0.2</purl>
+    </component>
+    <component type="library">
+      <name>pdfminer.six</name>
+      <version>20251230</version>
+      <purl>pkg:pypi/pdfminer.six@20251230</purl>
+    </component>
+    <component type="library">
+      <name>pdfplumber</name>
+      <version>0.11.9</version>
+      <purl>pkg:pypi/pdfplumber@0.11.9</purl>
+    </component>
+    <component type="library">
+      <name>phonemizer-fork</name>
+      <version>3.3.2</version>
+      <purl>pkg:pypi/phonemizer-fork@3.3.2</purl>
+    </component>
+    <component type="library">
+      <name>pillow</name>
+      <version>12.1.1</version>
+      <purl>pkg:pypi/pillow@12.1.1</purl>
+    </component>
+    <component type="library">
+      <name>pip</name>
+      <version>24.0</version>
+      <purl>pkg:pypi/pip@24.0</purl>
+    </component>
+    <component type="library">
+      <name>piper-tts</name>
+      <version>1.4.2</version>
+      <purl>pkg:pypi/piper-tts@1.4.2</purl>
+    </component>
+    <component type="library">
+      <name>pipmaster</name>
+      <version>1.1.2</version>
+      <purl>pkg:pypi/pipmaster@1.1.2</purl>
+    </component>
+    <component type="library">
+      <name>platformdirs</name>
+      <version>4.9.4</version>
+      <purl>pkg:pypi/platformdirs@4.9.4</purl>
+    </component>
+    <component type="library">
+      <name>playwright</name>
+      <version>1.58.0</version>
+      <purl>pkg:pypi/playwright@1.58.0</purl>
+    </component>
+    <component type="library">
+      <name>pluggy</name>
+      <version>1.6.0</version>
+      <purl>pkg:pypi/pluggy@1.6.0</purl>
+    </component>
+    <component type="library">
+      <name>portalocker</name>
+      <version>2.7.0</version>
+      <purl>pkg:pypi/portalocker@2.7.0</purl>
+    </component>
+    <component type="library">
+      <name>posthog</name>
+      <version>5.4.0</version>
+      <purl>pkg:pypi/posthog@5.4.0</purl>
+    </component>
+    <component type="library">
+      <name>POT</name>
+      <version>0.9.6.post1</version>
+      <purl>pkg:pypi/POT@0.9.6.post1</purl>
+    </component>
+    <component type="library">
+      <name>preshed</name>
+      <version>3.0.13</version>
+      <purl>pkg:pypi/preshed@3.0.13</purl>
+    </component>
+    <component type="library">
+      <name>primp</name>
+      <version>1.1.3</version>
+      <purl>pkg:pypi/primp@1.1.3</purl>
+    </component>
+    <component type="library">
+      <name>propcache</name>
+      <version>0.4.1</version>
+      <purl>pkg:pypi/propcache@0.4.1</purl>
+    </component>
+    <component type="library">
+      <name>proto-plus</name>
+      <version>1.27.2</version>
+      <purl>pkg:pypi/proto-plus@1.27.2</purl>
+    </component>
+    <component type="library">
+      <name>protobuf</name>
+      <version>6.33.6</version>
+      <purl>pkg:pypi/protobuf@6.33.6</purl>
+    </component>
+    <component type="library">
+      <name>psutil</name>
+      <version>7.2.2</version>
+      <purl>pkg:pypi/psutil@7.2.2</purl>
+    </component>
+    <component type="library">
+      <name>psycopg2-binary</name>
+      <version>2.9.11</version>
+      <purl>pkg:pypi/psycopg2-binary@2.9.11</purl>
+    </component>
+    <component type="library">
+      <name>py-serializable</name>
+      <version>2.1.0</version>
+      <purl>pkg:pypi/py-serializable@2.1.0</purl>
+    </component>
+    <component type="library">
+      <name>pyarrow</name>
+      <version>23.0.1</version>
+      <purl>pkg:pypi/pyarrow@23.0.1</purl>
+    </component>
+    <component type="library">
+      <name>pyasn1</name>
+      <version>0.6.3</version>
+      <purl>pkg:pypi/pyasn1@0.6.3</purl>
+    </component>
+    <component type="library">
+      <name>pyasn1_modules</name>
+      <version>0.4.2</version>
+      <purl>pkg:pypi/pyasn1_modules@0.4.2</purl>
+    </component>
+    <component type="library">
+      <name>pybase64</name>
+      <version>1.4.3</version>
+      <purl>pkg:pypi/pybase64@1.4.3</purl>
+    </component>
+    <component type="library">
+      <name>pycparser</name>
+      <version>3.0</version>
+      <purl>pkg:pypi/pycparser@3.0</purl>
+    </component>
+    <component type="library">
+      <name>pydantic</name>
+      <version>2.11.10</version>
+      <purl>pkg:pypi/pydantic@2.11.10</purl>
+    </component>
+    <component type="library">
+      <name>pydantic-settings</name>
+      <version>2.10.1</version>
+      <purl>pkg:pypi/pydantic-settings@2.10.1</purl>
+    </component>
+    <component type="library">
+      <name>pydantic_core</name>
+      <version>2.33.2</version>
+      <purl>pkg:pypi/pydantic_core@2.33.2</purl>
+    </component>
+    <component type="library">
+      <name>pyee</name>
+      <version>13.0.1</version>
+      <purl>pkg:pypi/pyee@13.0.1</purl>
+    </component>
+    <component type="library">
+      <name>Pygments</name>
+      <version>2.19.2</version>
+      <purl>pkg:pypi/Pygments@2.19.2</purl>
+    </component>
+    <component type="library">
+      <name>PyJWT</name>
+      <version>2.12.1</version>
+      <purl>pkg:pypi/PyJWT@2.12.1</purl>
+    </component>
+    <component type="library">
+      <name>PyMuPDF</name>
+      <version>1.26.7</version>
+      <purl>pkg:pypi/PyMuPDF@1.26.7</purl>
+    </component>
+    <component type="library">
+      <name>PyNaCl</name>
+      <version>1.5.0</version>
+      <purl>pkg:pypi/PyNaCl@1.5.0</purl>
+    </component>
+    <component type="library">
+      <name>pynndescent</name>
+      <version>0.6.0</version>
+      <purl>pkg:pypi/pynndescent@0.6.0</purl>
+    </component>
+    <component type="library">
+      <name>pyOpenSSL</name>
+      <version>25.3.0</version>
+      <purl>pkg:pypi/pyOpenSSL@25.3.0</purl>
+    </component>
+    <component type="library">
+      <name>pyparsing</name>
+      <version>3.3.2</version>
+      <purl>pkg:pypi/pyparsing@3.3.2</purl>
+    </component>
+    <component type="library">
+      <name>pypdf</name>
+      <version>6.9.1</version>
+      <purl>pkg:pypi/pypdf@6.9.1</purl>
+    </component>
+    <component type="library">
+      <name>pypdfium2</name>
+      <version>5.6.0</version>
+      <purl>pkg:pypi/pypdfium2@5.6.0</purl>
+    </component>
+    <component type="library">
+      <name>PyPika</name>
+      <version>0.51.1</version>
+      <purl>pkg:pypi/PyPika@0.51.1</purl>
+    </component>
+    <component type="library">
+      <name>pypinyin</name>
+      <version>0.55.0</version>
+      <purl>pkg:pypi/pypinyin@0.55.0</purl>
+    </component>
+    <component type="library">
+      <name>pyproject_hooks</name>
+      <version>1.2.0</version>
+      <purl>pkg:pypi/pyproject_hooks@1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>pyreadline3</name>
+      <version>3.5.6</version>
+      <purl>pkg:pypi/pyreadline3@3.5.6</purl>
+    </component>
+    <component type="library">
+      <name>pytest</name>
+      <version>9.0.2</version>
+      <purl>pkg:pypi/pytest@9.0.2</purl>
+    </component>
+    <component type="library">
+      <name>pytest-asyncio</name>
+      <version>1.3.0</version>
+      <purl>pkg:pypi/pytest-asyncio@1.3.0</purl>
+    </component>
+    <component type="library">
+      <name>python-dateutil</name>
+      <version>2.9.0.post0</version>
+      <purl>pkg:pypi/python-dateutil@2.9.0.post0</purl>
+    </component>
+    <component type="library">
+      <name>python-docx</name>
+      <version>1.2.0</version>
+      <purl>pkg:pypi/python-docx@1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>python-dotenv</name>
+      <version>1.1.1</version>
+      <purl>pkg:pypi/python-dotenv@1.1.1</purl>
+    </component>
+    <component type="library">
+      <name>python-json-logger</name>
+      <version>4.0.0</version>
+      <purl>pkg:pypi/python-json-logger@4.0.0</purl>
+    </component>
+    <component type="library">
+      <name>python-multipart</name>
+      <version>0.0.22</version>
+      <purl>pkg:pypi/python-multipart@0.0.22</purl>
+    </component>
+    <component type="library">
+      <name>python-pptx</name>
+      <version>1.0.2</version>
+      <purl>pkg:pypi/python-pptx@1.0.2</purl>
+    </component>
+    <component type="library">
+      <name>python-telegram-bot</name>
+      <version>22.7</version>
+      <purl>pkg:pypi/python-telegram-bot@22.7</purl>
+    </component>
+    <component type="library">
+      <name>pytube</name>
+      <version>15.0.0</version>
+      <purl>pkg:pypi/pytube@15.0.0</purl>
+    </component>
+    <component type="library">
+      <name>pytz</name>
+      <version>2025.2</version>
+      <purl>pkg:pypi/pytz@2025.2</purl>
+    </component>
+    <component type="library">
+      <name>pywin32</name>
+      <version>311</version>
+      <purl>pkg:pypi/pywin32@311</purl>
+    </component>
+    <component type="library">
+      <name>PyYAML</name>
+      <version>6.0.3</version>
+      <purl>pkg:pypi/PyYAML@6.0.3</purl>
+    </component>
+    <component type="library">
+      <name>qdrant-client</name>
+      <version>1.10.1</version>
+      <purl>pkg:pypi/qdrant-client@1.10.1</purl>
+    </component>
+    <component type="library">
+      <name>rank-bm25</name>
+      <version>0.2.2</version>
+      <purl>pkg:pypi/rank-bm25@0.2.2</purl>
+    </component>
+    <component type="library">
+      <name>rdflib</name>
+      <version>7.6.0</version>
+      <purl>pkg:pypi/rdflib@7.6.0</purl>
+    </component>
+    <component type="library">
+      <name>referencing</name>
+      <version>0.37.0</version>
+      <purl>pkg:pypi/referencing@0.37.0</purl>
+    </component>
+    <component type="library">
+      <name>regex</name>
+      <version>2026.1.15</version>
+      <purl>pkg:pypi/regex@2026.1.15</purl>
+    </component>
+    <component type="library">
+      <name>requests</name>
+      <version>2.32.5</version>
+      <purl>pkg:pypi/requests@2.32.5</purl>
+    </component>
+    <component type="library">
+      <name>requests-oauthlib</name>
+      <version>2.0.0</version>
+      <purl>pkg:pypi/requests-oauthlib@2.0.0</purl>
+    </component>
+    <component type="library">
+      <name>rfc3986</name>
+      <version>1.5.0</version>
+      <purl>pkg:pypi/rfc3986@1.5.0</purl>
+    </component>
+    <component type="library">
+      <name>rich</name>
+      <version>14.3.3</version>
+      <purl>pkg:pypi/rich@14.3.3</purl>
+    </component>
+    <component type="library">
+      <name>rpds-py</name>
+      <version>0.30.0</version>
+      <purl>pkg:pypi/rpds-py@0.30.0</purl>
+    </component>
+    <component type="library">
+      <name>rtree</name>
+      <version>1.4.1</version>
+      <purl>pkg:pypi/rtree@1.4.1</purl>
+    </component>
+    <component type="library">
+      <name>safetensors</name>
+      <version>0.7.0</version>
+      <purl>pkg:pypi/safetensors@0.7.0</purl>
+    </component>
+    <component type="library">
+      <name>scikit-learn</name>
+      <version>1.8.0</version>
+      <purl>pkg:pypi/scikit-learn@1.8.0</purl>
+    </component>
+    <component type="library">
+      <name>scipy</name>
+      <version>1.17.1</version>
+      <purl>pkg:pypi/scipy@1.17.1</purl>
+    </component>
+    <component type="library">
+      <name>seaborn</name>
+      <version>0.13.2</version>
+      <purl>pkg:pypi/seaborn@0.13.2</purl>
+    </component>
+    <component type="library">
+      <name>segments</name>
+      <version>2.4.0</version>
+      <purl>pkg:pypi/segments@2.4.0</purl>
+    </component>
+    <component type="library">
+      <name>sentence-transformers</name>
+      <version>5.3.0</version>
+      <purl>pkg:pypi/sentence-transformers@5.3.0</purl>
+    </component>
+    <component type="library">
+      <name>setuptools</name>
+      <version>82.0.1</version>
+      <purl>pkg:pypi/setuptools@82.0.1</purl>
+    </component>
+    <component type="library">
+      <name>shapely</name>
+      <version>2.1.2</version>
+      <purl>pkg:pypi/shapely@2.1.2</purl>
+    </component>
+    <component type="library">
+      <name>shellingham</name>
+      <version>1.5.4</version>
+      <purl>pkg:pypi/shellingham@1.5.4</purl>
+    </component>
+    <component type="library">
+      <name>six</name>
+      <version>1.17.0</version>
+      <purl>pkg:pypi/six@1.17.0</purl>
+    </component>
+    <component type="library">
+      <name>smart_open</name>
+      <version>7.5.1</version>
+      <purl>pkg:pypi/smart_open@7.5.1</purl>
+    </component>
+    <component type="library">
+      <name>sniffio</name>
+      <version>1.3.1</version>
+      <purl>pkg:pypi/sniffio@1.3.1</purl>
+    </component>
+    <component type="library">
+      <name>snowballstemmer</name>
+      <version>2.2.0</version>
+      <purl>pkg:pypi/snowballstemmer@2.2.0</purl>
+    </component>
+    <component type="library">
+      <name>sortedcontainers</name>
+      <version>2.4.0</version>
+      <purl>pkg:pypi/sortedcontainers@2.4.0</purl>
+    </component>
+    <component type="library">
+      <name>sounddevice</name>
+      <version>0.5.5</version>
+      <purl>pkg:pypi/sounddevice@0.5.5</purl>
+    </component>
+    <component type="library">
+      <name>soundfile</name>
+      <version>0.13.1</version>
+      <purl>pkg:pypi/soundfile@0.13.1</purl>
+    </component>
+    <component type="library">
+      <name>soupsieve</name>
+      <version>2.8.3</version>
+      <purl>pkg:pypi/soupsieve@2.8.3</purl>
+    </component>
+    <component type="library">
+      <name>spacy</name>
+      <version>3.8.12</version>
+      <purl>pkg:pypi/spacy@3.8.12</purl>
+    </component>
+    <component type="library">
+      <name>spacy-curated-transformers</name>
+      <version>0.3.1</version>
+      <purl>pkg:pypi/spacy-curated-transformers@0.3.1</purl>
+    </component>
+    <component type="library">
+      <name>spacy-legacy</name>
+      <version>3.0.12</version>
+      <purl>pkg:pypi/spacy-legacy@3.0.12</purl>
+    </component>
+    <component type="library">
+      <name>spacy-loggers</name>
+      <version>1.0.5</version>
+      <purl>pkg:pypi/spacy-loggers@1.0.5</purl>
+    </component>
+    <component type="library">
+      <name>srsly</name>
+      <version>2.5.3</version>
+      <purl>pkg:pypi/srsly@2.5.3</purl>
+    </component>
+    <component type="library">
+      <name>sse-starlette</name>
+      <version>3.3.3</version>
+      <purl>pkg:pypi/sse-starlette@3.3.3</purl>
+    </component>
+    <component type="library">
+      <name>sseclient-py</name>
+      <version>1.9.0</version>
+      <purl>pkg:pypi/sseclient-py@1.9.0</purl>
+    </component>
+    <component type="library">
+      <name>starlette</name>
+      <version>0.52.1</version>
+      <purl>pkg:pypi/starlette@0.52.1</purl>
+    </component>
+    <component type="library">
+      <name>statsmodels</name>
+      <version>0.14.6</version>
+      <purl>pkg:pypi/statsmodels@0.14.6</purl>
+    </component>
+    <component type="library">
+      <name>structlog</name>
+      <version>25.5.0</version>
+      <purl>pkg:pypi/structlog@25.5.0</purl>
+    </component>
+    <component type="library">
+      <name>supertonic</name>
+      <version>1.3.1</version>
+      <purl>pkg:pypi/supertonic@1.3.1</purl>
+    </component>
+    <component type="library">
+      <name>sympy</name>
+      <version>1.14.0</version>
+      <purl>pkg:pypi/sympy@1.14.0</purl>
+    </component>
+    <component type="library">
+      <name>tabulate</name>
+      <version>0.10.0</version>
+      <purl>pkg:pypi/tabulate@0.10.0</purl>
+    </component>
+    <component type="library">
+      <name>tenacity</name>
+      <version>9.1.4</version>
+      <purl>pkg:pypi/tenacity@9.1.4</purl>
+    </component>
+    <component type="library">
+      <name>termcolor</name>
+      <version>3.3.0</version>
+      <purl>pkg:pypi/termcolor@3.3.0</purl>
+    </component>
+    <component type="library">
+      <name>textual</name>
+      <version>8.1.1</version>
+      <purl>pkg:pypi/textual@8.1.1</purl>
+    </component>
+    <component type="library">
+      <name>tf-playwright-stealth</name>
+      <version>1.2.0</version>
+      <purl>pkg:pypi/tf-playwright-stealth@1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>thinc</name>
+      <version>8.3.11</version>
+      <purl>pkg:pypi/thinc@8.3.11</purl>
+    </component>
+    <component type="library">
+      <name>threadpoolctl</name>
+      <version>3.6.0</version>
+      <purl>pkg:pypi/threadpoolctl@3.6.0</purl>
+    </component>
+    <component type="library">
+      <name>tiktoken</name>
+      <version>0.8.0</version>
+      <purl>pkg:pypi/tiktoken@0.8.0</purl>
+    </component>
+    <component type="library">
+      <name>tokenizers</name>
+      <version>0.22.2</version>
+      <purl>pkg:pypi/tokenizers@0.22.2</purl>
+    </component>
+    <component type="library">
+      <name>toml</name>
+      <version>0.10.2</version>
+      <purl>pkg:pypi/toml@0.10.2</purl>
+    </component>
+    <component type="library">
+      <name>tomli</name>
+      <version>2.0.2</version>
+      <purl>pkg:pypi/tomli@2.0.2</purl>
+    </component>
+    <component type="library">
+      <name>tomli_w</name>
+      <version>1.1.0</version>
+      <purl>pkg:pypi/tomli_w@1.1.0</purl>
+    </component>
+    <component type="library">
+      <name>torch</name>
+      <version>2.10.0+cpu</version>
+      <purl>pkg:pypi/torch@2.10.0+cpu</purl>
+    </component>
+    <component type="library">
+      <name>tqdm</name>
+      <version>4.67.3</version>
+      <purl>pkg:pypi/tqdm@4.67.3</purl>
+    </component>
+    <component type="library">
+      <name>transformers</name>
+      <version>5.3.0</version>
+      <purl>pkg:pypi/transformers@5.3.0</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter</name>
+      <version>0.25.2</version>
+      <purl>pkg:pypi/tree-sitter@0.25.2</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-c</name>
+      <version>0.24.1</version>
+      <purl>pkg:pypi/tree-sitter-c@0.24.1</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-c-sharp</name>
+      <version>0.23.5</version>
+      <purl>pkg:pypi/tree-sitter-c-sharp@0.23.5</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-cpp</name>
+      <version>0.23.4</version>
+      <purl>pkg:pypi/tree-sitter-cpp@0.23.4</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-elixir</name>
+      <version>0.3.5</version>
+      <purl>pkg:pypi/tree-sitter-elixir@0.3.5</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-go</name>
+      <version>0.25.0</version>
+      <purl>pkg:pypi/tree-sitter-go@0.25.0</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-java</name>
+      <version>0.23.5</version>
+      <purl>pkg:pypi/tree-sitter-java@0.23.5</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-javascript</name>
+      <version>0.25.0</version>
+      <purl>pkg:pypi/tree-sitter-javascript@0.25.0</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-julia</name>
+      <version>0.23.1</version>
+      <purl>pkg:pypi/tree-sitter-julia@0.23.1</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-kotlin</name>
+      <version>1.1.0</version>
+      <purl>pkg:pypi/tree-sitter-kotlin@1.1.0</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-lua</name>
+      <version>0.5.0</version>
+      <purl>pkg:pypi/tree-sitter-lua@0.5.0</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-objc</name>
+      <version>3.0.2</version>
+      <purl>pkg:pypi/tree-sitter-objc@3.0.2</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-php</name>
+      <version>0.24.1</version>
+      <purl>pkg:pypi/tree-sitter-php@0.24.1</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-powershell</name>
+      <version>0.26.3</version>
+      <purl>pkg:pypi/tree-sitter-powershell@0.26.3</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-python</name>
+      <version>0.25.0</version>
+      <purl>pkg:pypi/tree-sitter-python@0.25.0</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-ruby</name>
+      <version>0.23.1</version>
+      <purl>pkg:pypi/tree-sitter-ruby@0.23.1</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-rust</name>
+      <version>0.24.2</version>
+      <purl>pkg:pypi/tree-sitter-rust@0.24.2</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-scala</name>
+      <version>0.26.0</version>
+      <purl>pkg:pypi/tree-sitter-scala@0.26.0</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-swift</name>
+      <version>0.0.1</version>
+      <purl>pkg:pypi/tree-sitter-swift@0.0.1</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-typescript</name>
+      <version>0.23.2</version>
+      <purl>pkg:pypi/tree-sitter-typescript@0.23.2</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-verilog</name>
+      <version>1.0.3</version>
+      <purl>pkg:pypi/tree-sitter-verilog@1.0.3</purl>
+    </component>
+    <component type="library">
+      <name>tree-sitter-zig</name>
+      <version>1.1.2</version>
+      <purl>pkg:pypi/tree-sitter-zig@1.1.2</purl>
+    </component>
+    <component type="library">
+      <name>trimesh</name>
+      <version>4.11.2</version>
+      <purl>pkg:pypi/trimesh@4.11.2</purl>
+    </component>
+    <component type="library">
+      <name>tweepy</name>
+      <version>4.16.0</version>
+      <purl>pkg:pypi/tweepy@4.16.0</purl>
+    </component>
+    <component type="library">
+      <name>typer</name>
+      <version>0.24.1</version>
+      <purl>pkg:pypi/typer@0.24.1</purl>
+    </component>
+    <component type="library">
+      <name>typer-slim</name>
+      <version>0.24.0</version>
+      <purl>pkg:pypi/typer-slim@0.24.0</purl>
+    </component>
+    <component type="library">
+      <name>typing-inspection</name>
+      <version>0.4.2</version>
+      <purl>pkg:pypi/typing-inspection@0.4.2</purl>
+    </component>
+    <component type="library">
+      <name>typing_extensions</name>
+      <version>4.15.0</version>
+      <purl>pkg:pypi/typing_extensions@4.15.0</purl>
+    </component>
+    <component type="library">
+      <name>tzdata</name>
+      <version>2025.3</version>
+      <purl>pkg:pypi/tzdata@2025.3</purl>
+    </component>
+    <component type="library">
+      <name>uc-micro-py</name>
+      <version>2.0.0</version>
+      <purl>pkg:pypi/uc-micro-py@2.0.0</purl>
+    </component>
+    <component type="library">
+      <name>umap-learn</name>
+      <version>0.5.11</version>
+      <purl>pkg:pypi/umap-learn@0.5.11</purl>
+    </component>
+    <component type="library">
+      <name>uritemplate</name>
+      <version>4.2.0</version>
+      <purl>pkg:pypi/uritemplate@4.2.0</purl>
+    </component>
+    <component type="library">
+      <name>urllib3</name>
+      <version>2.6.3</version>
+      <purl>pkg:pypi/urllib3@2.6.3</purl>
+    </component>
+    <component type="library">
+      <name>uvicorn</name>
+      <version>0.41.0</version>
+      <purl>pkg:pypi/uvicorn@0.41.0</purl>
+    </component>
+    <component type="library">
+      <name>wasabi</name>
+      <version>1.1.3</version>
+      <purl>pkg:pypi/wasabi@1.1.3</purl>
+    </component>
+    <component type="library">
+      <name>watchfiles</name>
+      <version>1.1.1</version>
+      <purl>pkg:pypi/watchfiles@1.1.1</purl>
+    </component>
+    <component type="library">
+      <name>wcwidth</name>
+      <version>0.6.0</version>
+      <purl>pkg:pypi/wcwidth@0.6.0</purl>
+    </component>
+    <component type="library">
+      <name>weasel</name>
+      <version>0.4.3</version>
+      <purl>pkg:pypi/weasel@0.4.3</purl>
+    </component>
+    <component type="library">
+      <name>websocket-client</name>
+      <version>1.9.0</version>
+      <purl>pkg:pypi/websocket-client@1.9.0</purl>
+    </component>
+    <component type="library">
+      <name>websockets</name>
+      <version>16.0</version>
+      <purl>pkg:pypi/websockets@16.0</purl>
+    </component>
+    <component type="library">
+      <name>webwright</name>
+      <version>0.1.0</version>
+      <purl>pkg:pypi/webwright@0.1.0</purl>
+    </component>
+    <component type="library">
+      <name>webwright</name>
+      <version>0.1.0</version>
+      <purl>pkg:pypi/webwright@0.1.0</purl>
+    </component>
+    <component type="library">
+      <name>Werkzeug</name>
+      <version>3.1.6</version>
+      <purl>pkg:pypi/Werkzeug@3.1.6</purl>
+    </component>
+    <component type="library">
+      <name>win32_setctime</name>
+      <version>1.2.0</version>
+      <purl>pkg:pypi/win32_setctime@1.2.0</purl>
+    </component>
+    <component type="library">
+      <name>winrt-runtime</name>
+      <version>3.2.1</version>
+      <purl>pkg:pypi/winrt-runtime@3.2.1</purl>
+    </component>
+    <component type="library">
+      <name>winrt-Windows.Devices.Bluetooth</name>
+      <version>3.2.1</version>
+      <purl>pkg:pypi/winrt-Windows.Devices.Bluetooth@3.2.1</purl>
+    </component>
+    <component type="library">
+      <name>winrt-Windows.Devices.Bluetooth.Advertisement</name>
+      <version>3.2.1</version>
+      <purl>pkg:pypi/winrt-Windows.Devices.Bluetooth.Advertisement@3.2.1</purl>
+    </component>
+    <component type="library">
+      <name>winrt-Windows.Devices.Bluetooth.GenericAttributeProfile</name>
+      <version>3.2.1</version>
+      <purl>pkg:pypi/winrt-Windows.Devices.Bluetooth.GenericAttributeProfile@3.2.1</purl>
+    </component>
+    <component type="library">
+      <name>winrt-Windows.Devices.Enumeration</name>
+      <version>3.2.1</version>
+      <purl>pkg:pypi/winrt-Windows.Devices.Enumeration@3.2.1</purl>
+    </component>
+    <component type="library">
+      <name>winrt-Windows.Devices.Radios</name>
+      <version>3.2.1</version>
+      <purl>pkg:pypi/winrt-Windows.Devices.Radios@3.2.1</purl>
+    </component>
+    <component type="library">
+      <name>winrt-Windows.Foundation</name>
+      <version>3.2.1</version>
+      <purl>pkg:pypi/winrt-Windows.Foundation@3.2.1</purl>
+    </component>
+    <component type="library">
+      <name>winrt-Windows.Foundation.Collections</name>
+      <version>3.2.1</version>
+      <purl>pkg:pypi/winrt-Windows.Foundation.Collections@3.2.1</purl>
+    </component>
+    <component type="library">
+      <name>winrt-Windows.Storage.Streams</name>
+      <version>3.2.1</version>
+      <purl>pkg:pypi/winrt-Windows.Storage.Streams@3.2.1</purl>
+    </component>
+    <component type="library">
+      <name>wrapt</name>
+      <version>1.17.3</version>
+      <purl>pkg:pypi/wrapt@1.17.3</purl>
+    </component>
+    <component type="library">
+      <name>xlsxwriter</name>
+      <version>3.2.9</version>
+      <purl>pkg:pypi/xlsxwriter@3.2.9</purl>
+    </component>
+    <component type="library">
+      <name>xxhash</name>
+      <version>3.6.0</version>
+      <purl>pkg:pypi/xxhash@3.6.0</purl>
+    </component>
+    <component type="library">
+      <name>yarl</name>
+      <version>1.22.0</version>
+      <purl>pkg:pypi/yarl@1.22.0</purl>
+    </component>
+    <component type="library">
+      <name>youtube-transcript-api</name>
+      <version>1.2.4</version>
+      <purl>pkg:pypi/youtube-transcript-api@1.2.4</purl>
+    </component>
+    <component type="library">
+      <name>zeroconf</name>
+      <version>0.149.16</version>
+      <purl>pkg:pypi/zeroconf@0.149.16</purl>
+    </component>
+    <component type="library">
+      <name>zipp</name>
+      <version>3.23.0</version>
+      <purl>pkg:pypi/zipp@3.23.0</purl>
+    </component>
+    <component type="library">
+      <name>zstandard</name>
+      <version>0.25.0</version>
+      <purl>pkg:pypi/zstandard@0.25.0</purl>
+    </component>
+  </components>
+  <vulnerabilities>
+
+  </vulnerabilities>
+</bom>
