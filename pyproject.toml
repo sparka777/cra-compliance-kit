@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cra-compliance-kit"
-version = "1.0.4"
+version = "1.0.5"
 description = "CRA Compliance Kit for IoT Devices - EU Cyber Resilience Act compliance in one pip install"
 readme = "README.md"
 license = "MIT"
