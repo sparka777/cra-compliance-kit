@@ -12,7 +12,7 @@
 
 | Obligation | Date | Status |
 |-----------|------|--------|
-| Vulnerability reporting (24h to ENISA) | **September 11, 2026** | 87 days |
+| Vulnerability reporting (24h to ENISA) | **September 11, 2026** | 53 days |
 | Full CRA conformity assessment | **December 11, 2027** | 18 months |
 | Penalties for non-compliance | Up to **EUR 15M or 2.5% of global turnover** | Active |
 
@@ -25,10 +25,10 @@
 | `InputClassifier` (input_guard.py) | Secure by default input handling — Art. 10(1) | MIT |
 | `PhysicalActionGuard` (action_guard.py) | Hard-blocked & confirm-required actions — Art. 10(3) | MIT |
 | `CycloneDX SBOM Generator` (sbom/generator.py) | SBOM maintenance for ENISA — Art. 13(8) | MIT |
-| `GuardianSubsystem` *(commercial)* | Central security health scoring | Gated — contact sydney@starcaller.uk |
-| `BehaviouralBaselineService` *(commercial)* | Welford anomaly detection | Gated — contact sydney@starcaller.uk |
-| `MemoryProvenance` *(commercial)* | HMAC-SHA256 audit chain | Gated — contact sydney@starcaller.uk |
-| `CrossOracleSigner` *(commercial)* | Inter-service request signing | Gated — contact sydney@starcaller.uk |
+| `GuardianSubsystem` *(commercial)* | Central security health scoring | Gated — contact info@starcaller.uk |
+| `BehaviouralBaselineService` *(commercial)* | Welford anomaly detection | Gated — contact info@starcaller.uk |
+| `MemoryProvenance` *(commercial)* | HMAC-SHA256 audit chain | Gated — contact info@starcaller.uk |
+| `CrossOracleSigner` *(commercial)* | Inter-service request signing | Gated — contact info@starcaller.uk |
 
 ## Quickstart
 
@@ -117,7 +117,7 @@ SBOM Generator (CycloneDX 1.5 XML)
 StarTeQ Ltd — the team behind Starcaller, a privacy-first AI appliance with
 a 9.3/10 security trust score and 8-module security stack in production.
 
-**Contact:** sydney@starcaller.uk
+**Contact:** info@starcaller.uk
 **Website:** [starcaller.uk/cra-compliance](https://starcaller.uk/cra-compliance)
 
 
